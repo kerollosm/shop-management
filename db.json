@@ -1,0 +1,2723 @@
+{
+  "user": [
+    {
+      "id": "ehab",
+      "password": "Ehab@1234",
+      "role": "admin"
+    },
+    {
+      "id": "nader",
+      "password": "Nader@1234",
+      "role": ""
+    }
+  ],
+  "invoices": [
+    {
+      "total": 2040,
+      "cost": 1173,
+      "details": [
+        {
+          "name": "لمبة 120 ليد",
+          "price": 60,
+          "Cost": 34.5,
+          "id": 4,
+          "quantity": 34,
+          "totalPrice": 2040,
+          "totalCost": 1173
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "23/08/2023, 05:11:01",
+      "id": 4
+    },
+    {
+      "total": 99,
+      "cost": 50.5,
+      "details": [
+        {
+          "name": "لمبة اشارة",
+          "price": 7,
+          "Cost": 4,
+          "id": 5,
+          "quantity": 7,
+          "totalPrice": 49,
+          "totalCost": 28
+        },
+        {
+          "name": "لمبة بلحة شفاف عاده",
+          "price": 10,
+          "Cost": 4.5,
+          "id": 10,
+          "quantity": 5,
+          "totalPrice": 50,
+          "totalCost": 22.5
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "24/08/2023, 19:00:44",
+      "id": 5
+    }
+  ],
+  "items": [
+    {
+      "name": "لمبة 60 تورنيدو",
+      "cost": 34,
+      "price": 40,
+      "quantity": 10,
+      "id": 1
+    },
+    {
+      "name": "لمبة 120 تورنيدو",
+      "cost": 37,
+      "price": 40,
+      "quantity": 367,
+      "id": 2
+    },
+    {
+      "name": "لمبة 60 ليد",
+      "cost": 34.5,
+      "price": 50,
+      "quantity": 16,
+      "id": 3
+    },
+    {
+      "name": "لمبة 120 ليد",
+      "cost": 34.5,
+      "price": 60,
+      "quantity": 34,
+      "id": 4
+    },
+    {
+      "name": "لمبة اشارة",
+      "cost": 4,
+      "price": 7,
+      "quantity": 58,
+      "id": 5
+    },
+    {
+      "name": "لمبة بلحة  ليد ورم لوكس",
+      "cost": 12.25,
+      "price": 25,
+      "quantity": 47,
+      "id": 6
+    },
+    {
+      "name": "لمبة بلحة  ليد ابيض شعبى",
+      "cost": 5,
+      "price": 15,
+      "quantity": 45,
+      "id": 7
+    },
+    {
+      "name": "لمبة بلحة ليد  ورم شعبى",
+      "cost": 5,
+      "price": 15,
+      "quantity": 50,
+      "id": 8
+    },
+    {
+      "name": "لمبة بلحة شفاف عاده",
+      "cost": 4.5,
+      "price": 10,
+      "quantity": 28,
+      "id": 10
+    },
+    {
+      "name": "لمبة بلحة مصنفر",
+      "cost": 4.5,
+      "price": 10,
+      "quantity": 29,
+      "id": 11
+    },
+    {
+      "name": "لمبة بوله 40 وات",
+      "cost": 5.5,
+      "price": 10,
+      "quantity": 36,
+      "id": 13
+    },
+    {
+      "name": "لمبة ثلاجة عادة",
+      "cost": 5,
+      "price": 10,
+      "quantity": 59,
+      "id": 14
+    },
+    {
+      "name": "لمبة ثلاجة ليد",
+      "cost": 7,
+      "price": 15,
+      "quantity": 84,
+      "id": 15
+    },
+    {
+      "name": "لمبة ديسكو",
+      "cost": 18.5,
+      "price": 35,
+      "quantity": 50,
+      "id": 16
+    },
+    {
+      "name": "لمبة سهارى شفاف قلووظ",
+      "cost": 4.5,
+      "price": 10,
+      "quantity": 36,
+      "id": 17
+    },
+    {
+      "name": "لمبة سهارى شفاف مسمار",
+      "cost": 4.5,
+      "price": 10,
+      "quantity": 53,
+      "id": 18
+    },
+    {
+      "name": "لمبة شوكة 12 فولت",
+      "cost": 10,
+      "price": 25,
+      "quantity": 14,
+      "id": 19
+    },
+    {
+      "name": "لمبة شوكة220 فولت",
+      "cost": 10,
+      "price": 25,
+      "quantity": 20,
+      "id": 20
+    },
+    {
+      "name": "لمبة شوكة تيار ليد",
+      "cost": 0,
+      "price": 15,
+      "quantity": 23,
+      "id": 21
+    },
+    {
+      "name": "لمبة عروسة عادة",
+      "cost": 5,
+      "price": 10,
+      "quantity": 108,
+      "id": 22
+    },
+    {
+      "name": "لمبة عروسة ليد",
+      "cost": 7,
+      "price": 15,
+      "quantity": 26,
+      "id": 23
+    },
+    {
+      "name": "لمبة فلورا 500 وات",
+      "cost": 90,
+      "price": 135,
+      "quantity": 6,
+      "id": 24
+    },
+    {
+      "name": "لمبة ميتالايت 400 وات تيار",
+      "cost": 135,
+      "price": 95,
+      "quantity": 5,
+      "id": 25
+    },
+    {
+      "name": "لمبة قلووظ 100 وات",
+      "cost": 8.5,
+      "price": 10,
+      "quantity": 94,
+      "id": 26
+    },
+    {
+      "name": "لمبة قلووظ 200 وات",
+      "cost": 17,
+      "price": 20,
+      "quantity": 30,
+      "id": 27
+    },
+    {
+      "name": "لمبة كاس تيار 50 وات",
+      "cost": 7.5,
+      "price": 15,
+      "quantity": 38,
+      "id": 28
+    },
+    {
+      "name": "لمبة كاس تيار ليد 5 وات",
+      "cost": 17.5,
+      "price": 25,
+      "quantity": 23,
+      "id": 29
+    },
+    {
+      "name": "لمبة لوكس ليد 9 وات ابيض",
+      "cost": 12.75,
+      "price": 25,
+      "quantity": 77,
+      "id": 30
+    },
+    {
+      "name": "لمبة لوكس ليد 12 وات ابيض",
+      "cost": 14.75,
+      "price": 30,
+      "quantity": 75,
+      "id": 31
+    },
+    {
+      "name": "لمبة لوكس ليد 20 وات ابيض",
+      "cost": 32.5,
+      "price": 45,
+      "quantity": 34,
+      "id": 32
+    },
+    {
+      "name": "لمبة لوكس ليد 30 وات ابيض",
+      "cost": 43.5,
+      "price": 60,
+      "quantity": 50,
+      "id": 33
+    },
+    {
+      "name": "لمبة لوكس ليد 50 وات ابيض",
+      "cost": 63.5,
+      "price": 120,
+      "quantity": 16,
+      "id": 34
+    },
+    {
+      "name": "لمبة شعبي ليد 5 وات ابيض عادة",
+      "cost": 5.5,
+      "price": 15,
+      "quantity": 82,
+      "id": 35
+    },
+    {
+      "name": "لمبة  شعبي ليد 9 وات ابيض ",
+      "cost": 6,
+      "price": 15,
+      "quantity": 189,
+      "id": 36
+    },
+    {
+      "name": "لمبة شعبي ليد 12 وات ابيض ",
+      "cost": 7,
+      "price": 20,
+      "quantity": 188,
+      "id": 37
+    },
+    {
+      "name": "لمبة شعبي ليد 36 وات ابيض ",
+      "cost": 18.5,
+      "price": 40,
+      "quantity": 65,
+      "id": 39
+    },
+    {
+      "name": "لمبة شعبي ليد 48 وات ابيض ",
+      "cost": 25.5,
+      "price": 55,
+      "quantity": 67,
+      "id": 40
+    },
+    {
+      "name": "لمبة شعبي ليد 75 وات ابيض ",
+      "cost": 36,
+      "price": 80,
+      "quantity": 38,
+      "id": 41
+    },
+    {
+      "name": "لمبة شعبي ليد 5 وات ورم عادة",
+      "cost": 8,
+      "price": 15,
+      "quantity": 30,
+      "id": 42
+    },
+    {
+      "name": "لمبة شعبي ليد 65 وات",
+      "cost": 37,
+      "price": 80,
+      "quantity": 15,
+      "id": 47
+    },
+    {
+      "name": "لمبة مسمار 100 وات",
+      "cost": 8.5,
+      "price": 10,
+      "quantity": 47,
+      "id": 48
+    },
+    {
+      "name": "لمبة مسمار 200 وات",
+      "cost": 17,
+      "price": 20,
+      "quantity": 30,
+      "id": 49
+    },
+    {
+      "name": "لمبة موفرة 105 وات",
+      "cost": 80,
+      "price": 120,
+      "quantity": 1,
+      "id": 50
+    },
+    {
+      "name": "لمبة موفرة 65 وات",
+      "cost": 50,
+      "price": 65,
+      "quantity": 1,
+      "id": 51
+    },
+    {
+      "name": "كشاف ليد خارجي 50 وات",
+      "cost": 115,
+      "price": 220,
+      "quantity": 2,
+      "id": 53
+    },
+    {
+      "name": "كشاف ليد خارجي 100 وات",
+      "cost": 180,
+      "price": 295,
+      "quantity": 2,
+      "id": 54
+    },
+    {
+      "name": "كشاف ليد خارجي 150 وات",
+      "cost": 280,
+      "price": 395,
+      "quantity": 2,
+      "id": 55
+    },
+    {
+      "name": "كشاف ليد خارجي200 وات",
+      "cost": 380,
+      "price": 550,
+      "quantity": 2,
+      "id": 56
+    },
+    {
+      "name": "كشاف ديكور ليد *2 120 سم",
+      "cost": 260,
+      "price": 190,
+      "quantity": 2,
+      "id": 57
+    },
+    {
+      "name": "كشاف ديكور ليد*2 60 سم ",
+      "cost": 160,
+      "price": 220,
+      "quantity": 1,
+      "id": 58
+    },
+    {
+      "name": "عين بقرة مربع صغير",
+      "cost": 35,
+      "price": 55,
+      "quantity": 5,
+      "id": 59
+    },
+    {
+      "name": "سلك ترمو 1مم المتر",
+      "cost": 8.7,
+      "price": 15,
+      "quantity": 158,
+      "id": 63
+    },
+    {
+      "name": "سلك ترمو 2مم بالمتر",
+      "cost": 14.7,
+      "price": 25,
+      "quantity": 210,
+      "id": 64
+    },
+    {
+      "name": "سلك ترمو 3مم",
+      "cost": 21,
+      "price": 35,
+      "quantity": 90,
+      "id": 65
+    },
+    {
+      "name": "سلك ترمو 4 مم بالمتر",
+      "cost": 26.25,
+      "price": 45,
+      "quantity": 60,
+      "id": 66
+    },
+    {
+      "name": "سلك معزول 1.5 مم",
+      "cost": 4.35,
+      "price": 8,
+      "quantity": 270,
+      "id": 67
+    },
+    {
+      "name": "سلك معزول 2 مم",
+      "cost": 6.25,
+      "price": 12,
+      "quantity": 225,
+      "id": 68
+    },
+    {
+      "name": "سلك معزول 4 مم",
+      "cost": 11.65,
+      "price": 20,
+      "quantity": 120,
+      "id": 70
+    },
+    {
+      "name": "سلك معزول 6 مم",
+      "cost": 20,
+      "price": 30,
+      "quantity": 50,
+      "id": 71
+    },
+    {
+      "name": "سلك نت 8 طرف لفة",
+      "cost": 2.75,
+      "price": 5,
+      "quantity": 250,
+      "id": 73
+    },
+    {
+      "name": "سلك سيارة 4 مم باللفة",
+      "cost": 11.6,
+      "price": 20,
+      "quantity": 210,
+      "id": 74
+    },
+    {
+      "name": "سلك مجدول 0.5 مم لوكس",
+      "cost": 3.5,
+      "price": 8,
+      "quantity": 415,
+      "id": 75
+    },
+    {
+      "name": "سلك مجدول 1 مم لوكس",
+      "cost": 6.3,
+      "price": 10,
+      "quantity": 155,
+      "id": 76
+    },
+    {
+      "name": "سلك تليفون معتمد",
+      "cost": 3,
+      "price": 5,
+      "quantity": 90,
+      "id": 79
+    },
+    {
+      "name": "سلك تليفون شعبى",
+      "cost": 1.5,
+      "price": 3,
+      "quantity": 90,
+      "id": 80
+    },
+    {
+      "name": "سلك دش بالمتر ",
+      "cost": 2.25,
+      "price": 3,
+      "quantity": 200,
+      "id": 81
+    },
+    {
+      "name": "سلك دش 20 شعبى",
+      "cost": 28.5,
+      "price": 40,
+      "quantity": 6,
+      "id": 87
+    },
+    {
+      "name": "سلك دش 30 شعبى",
+      "cost": 48,
+      "price": 65,
+      "quantity": 6,
+      "id": 88
+    },
+    {
+      "name": "سلك دش 50 شعبى",
+      "cost": 70,
+      "price": 95,
+      "quantity": 4,
+      "id": 89
+    },
+    {
+      "name": "سلك كاميرا معتمد لفة",
+      "cost": 5,
+      "price": 10,
+      "quantity": 425,
+      "id": 91
+    },
+    {
+      "name": "وصلة سماعة صغيرة",
+      "cost": 5,
+      "price": 10,
+      "quantity": 8,
+      "id": 93
+    },
+    {
+      "name": "D01V-1M-SM وصلة شحن",
+      "cost": 25,
+      "price": 35,
+      "quantity": 5,
+      "id": 95
+    },
+    {
+      "name": "مشترك 4 عين كارتونة",
+      "cost": 80,
+      "price": 59.25,
+      "quantity": 2,
+      "id": 103
+    },
+    {
+      "name": "مشترك 4 عين ابيض بكبس",
+      "cost": 55,
+      "price": 110,
+      "quantity": 4,
+      "id": 104
+    },
+    {
+      "name": "مشترك 4 عين 4.5 متر كود 106",
+      "cost": 155,
+      "price": 100,
+      "quantity": 2,
+      "id": 105
+    },
+    {
+      "name": "مشترك 4 عين 4 متر كود 102",
+      "cost": 95,
+      "price": 155,
+      "quantity": 3,
+      "id": 106
+    },
+    {
+      "name": "مشترك 4 عين 2.5 متر",
+      "cost": 120,
+      "price": 80,
+      "quantity": 1,
+      "id": 107
+    },
+    {
+      "name": "مشترك 4 عين 2.5 متر بمفتاح",
+      "cost": 105,
+      "price": 130,
+      "quantity": 2,
+      "id": 108
+    },
+    {
+      "name": "مشترك 6 عين 4 متر",
+      "cost": 145,
+      "price": 105,
+      "quantity": 1,
+      "id": 109
+    },
+    {
+      "name": "مشترك تيوانى 3 عين",
+      "cost": 230,
+      "price": 140,
+      "quantity": 1,
+      "id": 111
+    },
+    {
+      "name": "مشترك تيوانى 4 عين",
+      "cost": 270,
+      "price": 160,
+      "quantity": 1,
+      "id": 112
+    },
+    {
+      "name": "USB مشترك تيوانى 5 عين",
+      "cost": 290,
+      "price": 180,
+      "quantity": 1,
+      "id": 113
+    },
+    {
+      "name": "مشترك تيوانى 5 عين ",
+      "cost": 290,
+      "price": 180,
+      "quantity": 1,
+      "id": 114
+    },
+    {
+      "name": "مشترك هيروش 3 عين",
+      "cost": 250,
+      "price": 350,
+      "quantity": 1,
+      "id": 115
+    },
+    {
+      "name": "مشترك هيروش 5 عين",
+      "cost": 300,
+      "price": 400,
+      "quantity": 1,
+      "id": 116
+    },
+    {
+      "name": "مشترك ثلاثى لوكس",
+      "cost": 7,
+      "price": 15,
+      "quantity": 45,
+      "id": 120
+    },
+    {
+      "name": "مشترك خماسى شعبي",
+      "cost": 3,
+      "price": 10,
+      "quantity": 47,
+      "id": 122
+    },
+    {
+      "name": "طبق دش 70 سم",
+      "cost": 220,
+      "price": 260,
+      "quantity": 5,
+      "id": 123
+    },
+    {
+      "name": "طبق دش 85 سم",
+      "cost": 430,
+      "price": 550,
+      "quantity": 2,
+      "id": 124
+    },
+    {
+      "name": "طبق دش 100 سم",
+      "cost": 585,
+      "price": 650,
+      "quantity": 1,
+      "id": 125
+    },
+    {
+      "name": "عدسة 1 مخرج شعبي",
+      "cost": 40,
+      "price": 65,
+      "quantity": 1,
+      "id": 126
+    },
+    {
+      "name": "عدسة 4 مخرج شعبي",
+      "cost": 120,
+      "price": 180,
+      "quantity": 1,
+      "id": 128
+    },
+    {
+      "name": "مفتاح 2 فاز خارج بتشينو",
+      "cost": 100,
+      "price": 145,
+      "quantity": 7,
+      "id": 129
+    },
+    {
+      "name": "\tمفتاح 2 فاز داخل بتشينو",
+      "cost": 130,
+      "price": 175,
+      "quantity": 5,
+      "id": 130
+    },
+    {
+      "name": "\tمفتاح 2 فاز خارج هندى",
+      "cost": 75,
+      "price": 95,
+      "quantity": 5,
+      "id": 131
+    },
+    {
+      "name": "\tمفتاح 2 فاز داخل هندى",
+      "cost": 85,
+      "price": 120,
+      "quantity": 8,
+      "id": 132
+    },
+    {
+      "name": "\tمفتاح 3 فاز خارج بتشينو",
+      "cost": 180,
+      "price": 240,
+      "quantity": 2,
+      "id": 133
+    },
+    {
+      "name": "مفتاح على علبة ماجيك هندى",
+      "cost": 85,
+      "price": 110,
+      "quantity": 8,
+      "id": 134
+    },
+    {
+      "name": "مفتاح على علبة ماجيك بتشينو",
+      "cost": 137,
+      "price": 170,
+      "quantity": 3,
+      "id": 135
+    },
+    {
+      "name": "مفتاح جرس خارج اليوس",
+      "cost": 7,
+      "price": 10,
+      "quantity": 12,
+      "id": 136
+    },
+    {
+      "name": "مفتاح خارج اليوس",
+      "cost": 7,
+      "price": 10,
+      "quantity": 22,
+      "id": 137
+    },
+    {
+      "name": "مفتاح خلاط",
+      "cost": "",
+      "price": 10,
+      "quantity": "",
+      "id": 138
+    },
+    {
+      "name": "مفتاح غساله 4 طرف",
+      "cost": 7.5,
+      "price": 15,
+      "quantity": 3,
+      "id": 139
+    },
+    {
+      "name": "مفتاح غساله 6 طرف",
+      "cost": "",
+      "price": 20,
+      "quantity": 0,
+      "id": 140
+    },
+    {
+      "name": "مفتاح بيضاوى",
+      "cost": "",
+      "price": 15,
+      "quantity": "",
+      "id": 141
+    },
+    {
+      "name": "مفتاح مدور ",
+      "cost": "",
+      "price": 15,
+      "quantity": "",
+      "id": 142
+    },
+    {
+      "name": "مفتاح تك تك",
+      "cost": "",
+      "price": 10,
+      "quantity": "",
+      "id": 143
+    },
+    {
+      "name": "مفتاح كاتل",
+      "cost": "",
+      "price": 25,
+      "quantity": "",
+      "id": 144
+    },
+    {
+      "name": "قاعدة كاتل",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 145
+    },
+    {
+      "name": "مفتاح كمترى",
+      "cost": 6,
+      "price": 10,
+      "quantity": 34,
+      "id": 146
+    },
+    {
+      "name": "مفتاح  لوحة 16 20 25 32 40امبير",
+      "cost": 45,
+      "price": 70,
+      "quantity": 103,
+      "id": 149
+    },
+    {
+      "name": "مفتاح مروحة عاده",
+      "cost": 72,
+      "price": 100,
+      "quantity": 4,
+      "id": 152
+    },
+    {
+      "name": "مفتاح ويستنج هاوس 100 امبير",
+      "cost": 85,
+      "price": 125,
+      "quantity": 15,
+      "id": 153
+    },
+    {
+      "name": "مفتاح ويستنج هاوس 60 امبير",
+      "cost": 70,
+      "price": 100,
+      "quantity": 10,
+      "id": 154
+    },
+    {
+      "name": "مفك تست صغير",
+      "cost": 5,
+      "price": 10,
+      "quantity": 17,
+      "id": 155
+    },
+    {
+      "name": "مفك تست كبير",
+      "cost": 8,
+      "price": 15,
+      "quantity": 14,
+      "id": 156
+    },
+    {
+      "name": "مفك عادة  او  صليبة",
+      "cost": 13,
+      "price": 25,
+      "quantity": 13,
+      "id": 158
+    },
+    {
+      "name": "مكثف مروحة ",
+      "cost": 5,
+      "price": 15,
+      "quantity": 7,
+      "id": 159
+    },
+    {
+      "name": "مكواه لحام",
+      "cost": 75,
+      "price": 100,
+      "quantity": 1,
+      "id": 160
+    },
+    {
+      "name": "يد مكواه",
+      "cost": 35,
+      "price": 90,
+      "quantity": 1,
+      "id": 161
+    },
+    {
+      "name": "وش جامبو",
+      "cost": 6.25,
+      "price": 12,
+      "quantity": 170,
+      "id": 162
+    },
+    {
+      "name": "وش كلاسيك",
+      "cost": 4.25,
+      "price": 10,
+      "quantity": 175,
+      "id": 164
+    },
+    {
+      "name": " HD كابل 2 متر جينرال",
+      "cost": 25,
+      "price": 50,
+      "quantity": 1,
+      "id": 165
+    },
+    {
+      "name": " HD كابل 1.5 متر ",
+      "cost": 18,
+      "price": 35,
+      "quantity": 1,
+      "id": 166
+    },
+    {
+      "name": "كابل باور عادى ",
+      "cost": 18,
+      "price": 30,
+      "quantity": 6,
+      "id": 169
+    },
+    {
+      "name": "كابل برنتر ",
+      "cost": 15,
+      "price": 35,
+      "quantity": 3,
+      "id": 170
+    },
+    {
+      "name": "كابل تسجيل ",
+      "cost": 8,
+      "price": 15,
+      "quantity": 56,
+      "id": 172
+    },
+    {
+      "name": "كابل خلاط",
+      "cost": 10,
+      "price": 20,
+      "quantity": 1,
+      "id": 173
+    },
+    {
+      "name": "كابل شاشة اسود كبير",
+      "cost": 20,
+      "price": 40,
+      "quantity": 5,
+      "id": 174
+    },
+    {
+      "name": "كابل غسالة ",
+      "cost": 10,
+      "price": 20,
+      "quantity": 12,
+      "id": 175
+    },
+    {
+      "name": "كابل كاميرا",
+      "cost": 5,
+      "price": 10,
+      "quantity": 56,
+      "id": 176
+    },
+    {
+      "name": "كابل مكواه",
+      "cost": 12,
+      "price": 25,
+      "quantity": 13,
+      "id": 177
+    },
+    {
+      "name": "وصلة 1*1",
+      "cost": 10,
+      "price": 15,
+      "quantity": 9,
+      "id": 178
+    },
+    {
+      "name": "وصلة 1*2",
+      "cost": 10,
+      "price": 15,
+      "quantity": 5,
+      "id": 179
+    },
+    {
+      "name": "وصلة 3*1",
+      "cost": 10,
+      "price": 15,
+      "quantity": 10,
+      "id": 180
+    },
+    {
+      "name": "وصلة 3*3 على كارت",
+      "cost": 15,
+      "price": 25,
+      "quantity": 5,
+      "id": 182
+    },
+    {
+      "name": "وصلة 3*3 شفافة",
+      "cost": 9,
+      "price": 15,
+      "quantity": 13,
+      "id": 183
+    },
+    {
+      "name": "USB وصلة تطويل ",
+      "cost": 8,
+      "price": 15,
+      "quantity": 1,
+      "id": 185
+    },
+    {
+      "name": "وصلة سماعة ص",
+      "cost": 6,
+      "price": 10,
+      "quantity": 3,
+      "id": 186
+    },
+    {
+      "name": "وصلة تليفون 5 متر",
+      "cost": 8,
+      "price": 15,
+      "quantity": 10,
+      "id": 187
+    },
+    {
+      "name": "وصلة تليفون 10 متر",
+      "cost": 15,
+      "price": 25,
+      "quantity": 2,
+      "id": 188
+    },
+    {
+      "name": "وصلة تليفون 2 متر",
+      "cost": 5,
+      "price": 10,
+      "quantity": 1,
+      "id": 189
+    },
+    {
+      "name": "وصلة سماعة كبيرة",
+      "cost": 7,
+      "price": 10,
+      "quantity": 4,
+      "id": 190
+    },
+    {
+      "name": "كابل خرطوم ليدعاده",
+      "cost": 8,
+      "price": 15,
+      "quantity": 23,
+      "id": 192
+    },
+    {
+      "name": "SM شاحن",
+      "cost": 50,
+      "price": 60,
+      "quantity": 2,
+      "id": 193
+    },
+    {
+      "name": "دواية 3*1 قلاوظ",
+      "cost": 45,
+      "price": 60,
+      "quantity": 3,
+      "id": 195
+    },
+    {
+      "name": "علبة سانشى خارج",
+      "cost": 17,
+      "price": 25,
+      "quantity": 5,
+      "id": 196
+    },
+    {
+      "name": "لقمة بريزة مجوفة سانشي",
+      "cost": 33,
+      "price": 50,
+      "quantity": 4,
+      "id": 197
+    },
+    {
+      "name": "دواية  شوكة",
+      "cost": 2.5,
+      "price": 5,
+      "quantity": 28,
+      "id": 198
+    },
+    {
+      "name": "دواية عروسة",
+      "cost": 2,
+      "price": 5,
+      "quantity": 27,
+      "id": 199
+    },
+    {
+      "name": "دواية قلووظ بسلك",
+      "cost": 3.6,
+      "price": 10,
+      "quantity": 32,
+      "id": 200
+    },
+    {
+      "name": "دواية قلووظ خزف ",
+      "cost": 4,
+      "price": 10,
+      "quantity": 20,
+      "id": 205
+    },
+    {
+      "name": "دواية كعب فلام برندلة",
+      "cost": 7.5,
+      "price": 15,
+      "quantity": 24,
+      "id": 206
+    },
+    {
+      "name": "دواية مسمار",
+      "cost": 5,
+      "price": 10,
+      "quantity": 45,
+      "id": 209
+    },
+    {
+      "name": "دواية فلورسنت بدون قاعدة",
+      "cost": 3.5,
+      "price": 5,
+      "quantity": 47,
+      "id": 210
+    },
+    {
+      "name": "دواية فلورسنت بقاعدة",
+      "cost": 4,
+      "price": 7,
+      "quantity": 10,
+      "id": 211
+    },
+    {
+      "name": "لقمة مفتاح سانشي",
+      "cost": 11.5,
+      "price": 15,
+      "quantity": 24,
+      "id": 214
+    },
+    {
+      "name": " لقمة مفتاح دفياتير سانشي",
+      "cost": 18,
+      "price": 30,
+      "quantity": 6,
+      "id": 215
+    },
+    {
+      "name": " لقمة مفتاح 4 طرف سانشي",
+      "cost": 30,
+      "price": 40,
+      "quantity": 6,
+      "id": 216
+    },
+    {
+      "name": "لقمة بريزة سانشي",
+      "cost": 11.5,
+      "price": 15,
+      "quantity": 52,
+      "id": 218
+    },
+    {
+      "name": " لقمة جرس سانشي",
+      "cost": 18,
+      "price": 25,
+      "quantity": 4,
+      "id": 220
+    },
+    {
+      "name": " لقمة دش سانشي",
+      "cost": 18,
+      "price": 25,
+      "quantity": 5,
+      "id": 221
+    },
+    {
+      "name": "شاسية سانشي",
+      "cost": 4.8,
+      "price": 15,
+      "quantity": 35,
+      "id": 222
+    },
+    {
+      "name": "وش سانشي",
+      "cost": 4.25,
+      "price": 10,
+      "quantity": 41,
+      "id": 223
+    },
+    {
+      "name": "سدادة سانشي",
+      "cost": 2,
+      "price": 4,
+      "quantity": 55,
+      "id": 224
+    },
+    {
+      "name": "Sاسترتر سرية 10",
+      "cost": 5,
+      "price": 10,
+      "quantity": 66,
+      "id": 225
+    },
+    {
+      "name": "استرتر عادة",
+      "cost": 4.25,
+      "price": 5,
+      "quantity": 114,
+      "id": 226
+    },
+    {
+      "name": "لقمة مفتاح فينوس",
+      "cost": 12,
+      "price": 15,
+      "quantity": 4,
+      "id": 229
+    },
+    {
+      "name": "لقمة دش فينوس",
+      "cost": 12,
+      "price": 15,
+      "quantity": 1,
+      "id": 230
+    },
+    {
+      "name": "لقمة ديقيتير ماجيك",
+      "cost": 7,
+      "price": 15,
+      "quantity": 11,
+      "id": 231
+    },
+    {
+      "name": "لقمة تليفون ماجيك",
+      "cost": 7,
+      "price": 15,
+      "quantity": 20,
+      "id": 232
+    },
+    {
+      "name": "لقمة جرس بلمبة",
+      "cost": 8,
+      "price": 15,
+      "quantity": 15,
+      "id": 233
+    },
+    {
+      "name": "لقمة مفاح ماجيك بيتشينو",
+      "cost": 12,
+      "price": 15,
+      "quantity": 51,
+      "id": 235
+    },
+    {
+      "name": "لقمة مفتاح اليوس",
+      "cost": 7.5,
+      "price": 15,
+      "quantity": 43,
+      "id": 236
+    },
+    {
+      "name": "لقمة بريزة اليوس",
+      "cost": 7.75,
+      "price": 10,
+      "quantity": 114,
+      "id": 237
+    },
+    {
+      "name": "فلكسبل 16 مم",
+      "cost": 18,
+      "price": 40,
+      "quantity": 18,
+      "id": 238
+    },
+    {
+      "name": "فلكسبل 13 مم",
+      "cost": 18,
+      "price": 40,
+      "quantity": 13,
+      "id": 240
+    },
+    {
+      "name": "فلكسبل 11 مم",
+      "cost": 18,
+      "price": 40,
+      "quantity": 8,
+      "id": 241
+    },
+    {
+      "name": "فلسكبل 23 مم",
+      "cost": 75,
+      "price": 125,
+      "quantity": 1,
+      "id": 242
+    },
+    {
+      "name": "اف كونكتور",
+      "cost": 1.5,
+      "price": 3,
+      "quantity": 150,
+      "id": 243
+    },
+    {
+      "name": "ارنديد",
+      "cost": 6,
+      "price": 10,
+      "quantity": 46,
+      "id": 246
+    },
+    {
+      "name": "بريزة بلغارى خارج مدور",
+      "cost": 8,
+      "price": 15,
+      "quantity": 45,
+      "id": 247
+    },
+    {
+      "name": "بريزة خارج بالغطاء",
+      "cost": 18,
+      "price": 25,
+      "quantity": 15,
+      "id": 248
+    },
+    {
+      "name": "بواط 10*10",
+      "cost": 2.5,
+      "price": 5,
+      "quantity": 32,
+      "id": 252
+    },
+    {
+      "name": "بواط 10*15",
+      "cost": 3.5,
+      "price": 8,
+      "quantity": 23,
+      "id": 253
+    },
+    {
+      "name": "بواط 10*10 حرارى",
+      "cost": 10,
+      "price": 15,
+      "quantity": 2,
+      "id": 254
+    },
+    {
+      "name": "بواط 10*15 حرارى",
+      "cost": 15,
+      "price": 25,
+      "quantity": 6,
+      "id": 255
+    },
+    {
+      "name": "ترانس اليكترونى 1 لمبة",
+      "cost": "",
+      "price": "",
+      "quantity": 7,
+      "id": 257
+    },
+    {
+      "name": "ترانس اليكترونى 2 لمبة",
+      "cost": "",
+      "price": "",
+      "quantity": 4,
+      "id": 258
+    },
+    {
+      "name": "ترانس سخان3 فولت",
+      "cost": 38,
+      "price": 60,
+      "quantity": 8,
+      "id": 259
+    },
+    {
+      "name": "جاك اريل",
+      "cost": 3,
+      "price": 10,
+      "quantity": 10,
+      "id": 263
+    },
+    {
+      "name": "جاك دكر دش",
+      "cost": 3,
+      "price": 10,
+      "quantity": 13,
+      "id": 264
+    },
+    {
+      "name": "جنش مروحة بالكوتشة",
+      "cost": 5,
+      "price": 15,
+      "quantity": 11,
+      "id": 265
+    },
+    {
+      "name": "جرس عصفورة",
+      "cost": 22.5,
+      "price": 35,
+      "quantity": 5,
+      "id": 266
+    },
+    {
+      "name": "جرس بيانو",
+      "cost": 36.5,
+      "price": 55,
+      "quantity": 3,
+      "id": 267
+    },
+    {
+      "name": "جرس لاسلكى",
+      "cost": 65,
+      "price": 120,
+      "quantity": 3,
+      "id": 268
+    },
+    {
+      "name": "حجر جرس لاسلكى",
+      "cost": 10,
+      "price": 20,
+      "quantity": 2,
+      "id": 269
+    },
+    {
+      "name": "دواية بفيشة",
+      "cost": 11.75,
+      "price": 20,
+      "quantity": 28,
+      "id": 270
+    },
+    {
+      "name": "دواية  ديكور ليزر",
+      "cost": 8.5,
+      "price": 15,
+      "quantity": 49,
+      "id": 271
+    },
+    {
+      "name": "دواية جوليت",
+      "cost": 10,
+      "price": 20,
+      "quantity": 25,
+      "id": 272
+    },
+    {
+      "name": "شريط ليد 120 سم ابيض 2 لمبة ",
+      "cost": 38.5,
+      "price": 65,
+      "quantity": 13,
+      "id": 279
+    },
+    {
+      "name": "شريط لحام وسط",
+      "cost": 4.25,
+      "price": 12,
+      "quantity": 374,
+      "id": 281
+    },
+    {
+      "name": "شريط لحام غزالة",
+      "cost": 16,
+      "price": 20,
+      "quantity": 55,
+      "id": 282
+    },
+    {
+      "name": "شريط لحام صغير",
+      "cost": 3.5,
+      "price": 8,
+      "quantity": 2,
+      "id": 283
+    },
+    {
+      "name": "شاسية حديد",
+      "cost": 2.5,
+      "price": 5,
+      "quantity": 139,
+      "id": 284
+    },
+    {
+      "name": "شباية مدور 30 واط",
+      "cost": 22,
+      "price": 40,
+      "quantity": 8,
+      "id": 286
+    },
+    {
+      "name": "صاجة 1*120 الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 10,
+      "id": 287
+    },
+    {
+      "name": "صاجة 1*120 ليد",
+      "cost": "",
+      "price": "",
+      "quantity": 10,
+      "id": 288
+    },
+    {
+      "name": "صاجة 1*120 مجمع",
+      "cost": "",
+      "price": "",
+      "quantity": 3,
+      "id": 289
+    },
+    {
+      "name": "صاجة 1*60 ليد",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 290
+    },
+    {
+      "name": "كشاف 2*120 الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 4,
+      "id": 291
+    },
+    {
+      "name": "صاجة 2*120 مجمع",
+      "cost": "",
+      "price": null,
+      "quantity": 7,
+      "id": 292
+    },
+    {
+      "name": "خرطوم ليد ابيض بالمتر",
+      "cost": 16,
+      "price": 25,
+      "quantity": 90,
+      "id": 293
+    },
+    {
+      "name": "خرطوم ارضيات شعبي",
+      "cost": 220,
+      "price": 290,
+      "quantity": 2,
+      "id": 295
+    },
+    {
+      "name": "خرطوم ارضيات لوكس",
+      "cost": 280,
+      "price": 350,
+      "quantity": 2,
+      "id": 296
+    },
+    {
+      "name": "فلكسبل حراري 25",
+      "cost": 90,
+      "price": 140,
+      "quantity": 2,
+      "id": 298
+    },
+    {
+      "name": "عود دكت 1.5 ",
+      "cost": 8.5,
+      "price": 25,
+      "quantity": 14,
+      "id": 299
+    },
+    {
+      "name": "عود دكت 2.5",
+      "cost": 13.5,
+      "price": 25,
+      "quantity": 22,
+      "id": 300
+    },
+    {
+      "name": "عود دكت 4",
+      "cost": 28,
+      "price": 45,
+      "quantity": 10,
+      "id": 301
+    },
+    {
+      "name": "C30كود  TV   حامل ",
+      "cost": 120,
+      "price": 170,
+      "quantity": 1,
+      "id": 302
+    },
+    {
+      "name": "C306  حامل كود",
+      "cost": 200,
+      "price": 250,
+      "quantity": 1,
+      "id": 303
+    },
+    {
+      "name": "B27 حامل كود",
+      "cost": 60,
+      "price": 90,
+      "quantity": 2,
+      "id": 304
+    },
+    {
+      "name": "فيشة بشداد",
+      "cost": 5,
+      "price": 10,
+      "quantity": 49,
+      "id": 310
+    },
+    {
+      "name": "فيشة كاوتش لوكس دكر ونتاية ",
+      "cost": 2.7,
+      "price": 7,
+      "quantity": 130,
+      "id": 311
+    },
+    {
+      "name": "فيشة كاوتش شعبي دكر ونتاية",
+      "cost": 2,
+      "price": 5,
+      "quantity": 71,
+      "id": 312
+    },
+    {
+      "name": "فيشة 16 امبير شعبي",
+      "cost": 6.5,
+      "price": 15,
+      "quantity": 115,
+      "id": 317
+    },
+    {
+      "name": "قاعدة استايتر",
+      "cost": 5,
+      "price": 10,
+      "quantity": 11,
+      "id": 318
+    },
+    {
+      "name": "علبة كلبس 6مم",
+      "cost": 10.25,
+      "price": 20,
+      "quantity": 9,
+      "id": 319
+    },
+    {
+      "name": "علبة كلبس 8مم",
+      "cost": 11.75,
+      "price": 20,
+      "quantity": 17,
+      "id": 320
+    },
+    {
+      "name": "علبة كلبس 10مم",
+      "cost": 13.75,
+      "price": 20,
+      "quantity": 8,
+      "id": 321
+    },
+    {
+      "name": "علبة كلبس 12مم",
+      "cost": 13.75,
+      "price": 25,
+      "quantity": 8,
+      "id": 322
+    },
+    {
+      "name": "علبة كلبس 16مم",
+      "cost": 26,
+      "price": 40,
+      "quantity": 3,
+      "id": 323
+    },
+    {
+      "name": "اسبوت اب دون 1 لمبة",
+      "cost": 45,
+      "price": 75,
+      "quantity": 2,
+      "id": 329
+    },
+    {
+      "name": "اسبوت اب دون 2 لمبة",
+      "cost": 67,
+      "price": 95,
+      "quantity": 2,
+      "id": 330
+    },
+    {
+      "name": "اسبوت اب دون 3 لمبة",
+      "cost": 80,
+      "price": 120,
+      "quantity": 1,
+      "id": 331
+    },
+    {
+      "name": "اسبوت اب دون 4 لمبة",
+      "cost": 95,
+      "price": 145,
+      "quantity": 2,
+      "id": 332
+    },
+    {
+      "name": "اسبوت 3 حركة 7 وات",
+      "cost": 16.5,
+      "price": 35,
+      "quantity": 47,
+      "id": 333
+    },
+    {
+      "name": " كشاف بلفونير مدور ليد داخل 36 وات",
+      "cost": 80,
+      "price": 130,
+      "quantity": 9,
+      "id": 334
+    },
+    {
+      "name": "كشاف بلفونير مدور ليد خارج 45 وات",
+      "cost": 85,
+      "price": 135,
+      "quantity": 12,
+      "id": 335
+    },
+    {
+      "name": "لوحة الملكة2خط",
+      "cost": 15,
+      "price": 25,
+      "quantity": 6,
+      "id": 336
+    },
+    {
+      "name": "لوحة الملكة 3 خط",
+      "cost": 20,
+      "price": 30,
+      "quantity": 5,
+      "id": 337
+    },
+    {
+      "name": "لوحة  الملكة 4خط",
+      "cost": 30,
+      "price": 50,
+      "quantity": 2,
+      "id": 338
+    },
+    {
+      "name": "لوحة الملكة داخل 8خط",
+      "cost": 40,
+      "price": 60,
+      "quantity": 3,
+      "id": 339
+    },
+    {
+      "name": "لوحة الملكة داخل  12 خط",
+      "cost": 55,
+      "price": 80,
+      "quantity": 3,
+      "id": 340
+    },
+    {
+      "name": "لوحة الملكة داخل 24 خط",
+      "cost": 115,
+      "price": 165,
+      "quantity": 5,
+      "id": 341
+    },
+    {
+      "name": "لوحة عداد 3فاز نور",
+      "cost": 175,
+      "price": 225,
+      "quantity": 1,
+      "id": 342
+    },
+    {
+      "name": "لوحة عداد 2فاز العبد",
+      "cost": 105,
+      "price": 155,
+      "quantity": 1,
+      "id": 343
+    },
+    {
+      "name": "لوحة 10 خط عداد خارجى بدر",
+      "cost": 55,
+      "price": 85,
+      "quantity": 1,
+      "id": 344
+    },
+    {
+      "name": "علبة 1 مفتاح ماجك خارجي اليوس",
+      "cost": 6,
+      "price": 10,
+      "quantity": 7,
+      "id": 345
+    },
+    {
+      "name": "علبة 2 مفتاح ماجيك خارجي اليوس",
+      "cost": 6,
+      "price": 10,
+      "quantity": 8,
+      "id": 346
+    },
+    {
+      "name": "علبة ماجيك خارجي",
+      "cost": 8,
+      "price": 15,
+      "quantity": 6,
+      "id": 347
+    },
+    {
+      "name": "علبة ماجيك مجوز",
+      "cost": 4,
+      "price": 10,
+      "quantity": 47,
+      "id": 348
+    },
+    {
+      "name": "اسبليتر نت شعبي",
+      "cost": 14.5,
+      "price": 25,
+      "quantity": 14,
+      "id": 349
+    },
+    {
+      "name": "علبة تليفون",
+      "cost": "",
+      "price": "",
+      "quantity": 16,
+      "id": 351
+    },
+    {
+      "name": "علبة خارج للشاسية",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 352
+    },
+    {
+      "name": "علبة صاعد كبيرة",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 353
+    },
+    {
+      "name": "علبة صاعد صغيرة",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 354
+    },
+    {
+      "name": "علبة قلافونية",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 355
+    },
+    {
+      "name": "غطاء بواط 10*15",
+      "cost": 1,
+      "price": 5,
+      "quantity": 20,
+      "id": 356
+    },
+    {
+      "name": "غطاء بواط 10*10",
+      "cost": 1,
+      "price": 5,
+      "quantity": 10,
+      "id": 357
+    },
+    {
+      "name": "بواط 20*20",
+      "cost": 15,
+      "price": 25,
+      "quantity": 6,
+      "id": 358
+    },
+    {
+      "name": "فوم تنضيف",
+      "cost": 50,
+      "price": 100,
+      "quantity": 1,
+      "id": 359
+    },
+    {
+      "name": "ترامل نحاس",
+      "cost": "",
+      "price": "",
+      "quantity": "",
+      "id": 360
+    },
+    {
+      "name": "كاوتش مروحة ",
+      "cost": 2,
+      "price": 5,
+      "quantity": 16,
+      "id": 361
+    },
+    {
+      "name": "عدسة دش 1مخرج لوكس",
+      "cost": 45,
+      "price": 75,
+      "quantity": 3,
+      "id": 362
+    },
+    {
+      "name": "عدسة دش 2مخرج لوكس",
+      "cost": 120,
+      "price": 175,
+      "quantity": 2,
+      "id": 363
+    },
+    {
+      "name": "عدسة دش 4مخرج لوكس",
+      "cost": 250,
+      "price": 295,
+      "quantity": 1,
+      "id": 364
+    },
+    {
+      "name": "ديزك دش 1*4",
+      "cost": 35,
+      "price": 50,
+      "quantity": 3,
+      "id": 365
+    },
+    {
+      "name": "لوحة عداد 36 خط 3 فاز",
+      "cost": 1800,
+      "price": 2500,
+      "quantity": 1,
+      "id": 366
+    },
+    {
+      "name": "مفتاح لوحة 63 امبير",
+      "cost": 55,
+      "price": 95,
+      "quantity": 12,
+      "id": 367
+    },
+    {
+      "name": "بريزة خارج اليوس",
+      "cost": 7,
+      "price": 10,
+      "quantity": 7,
+      "id": 368
+    },
+    {
+      "name": "فيشة 16 امبير لوكس",
+      "cost": 12,
+      "price": 20,
+      "quantity": 70,
+      "id": 371
+    },
+    {
+      "name": "اسبوت ليبر",
+      "cost": 100,
+      "price": 200,
+      "quantity": 4,
+      "id": 374
+    },
+    {
+      "name": "مفتاح هيونداي 100 امبير ",
+      "cost": 175,
+      "price": 275,
+      "quantity": 1,
+      "id": 375
+    },
+    {
+      "name": "مفتاح مروحة على علبه",
+      "cost": 65,
+      "price": 95,
+      "quantity": 5,
+      "id": 376
+    },
+    {
+      "name": "ترنس 400 وات",
+      "cost": 150,
+      "price": 400,
+      "quantity": 1,
+      "id": 378
+    },
+    {
+      "name": "جرس باب عصفورة على علبة",
+      "cost": 25,
+      "price": 55,
+      "quantity": 5,
+      "id": 379
+    },
+    {
+      "name": "علبة كلبس 20 مم",
+      "cost": 28,
+      "price": 40,
+      "quantity": 5,
+      "id": 380
+    },
+    {
+      "name": "كيس فيشر",
+      "cost": 25,
+      "price": "",
+      "quantity": 9,
+      "id": 381
+    },
+    {
+      "name": "فيشة ذكر قلاب",
+      "cost": 5,
+      "price": 10,
+      "quantity": 4,
+      "id": 384
+    },
+    {
+      "name": "دواية تحويل جوليت",
+      "cost": "",
+      "price": "",
+      "quantity": 31,
+      "id": 385
+    },
+    {
+      "name": "قفل",
+      "cost": "",
+      "price": "",
+      "quantity": 12,
+      "id": 387
+    },
+    {
+      "name": "S جنش حرف",
+      "cost": 3,
+      "price": 10,
+      "quantity": 20,
+      "id": 388
+    },
+    {
+      "name": "مروحة بروسيسور",
+      "cost": "",
+      "price": "",
+      "quantity": 2,
+      "id": 389
+    },
+    {
+      "name": "كابل شاشة ازرق صغير",
+      "cost": 20,
+      "price": 30,
+      "quantity": 5,
+      "id": 390
+    },
+    {
+      "name": "ريدر",
+      "cost": "",
+      "price": "",
+      "quantity": 6,
+      "id": 391
+    },
+    {
+      "name": "ترنس كشاف ليد 50 وات معدن وبلاستك",
+      "cost": 40,
+      "price": 65,
+      "quantity": 9,
+      "id": 395
+    },
+    {
+      "name": "ترانس اسبوط ",
+      "cost": "",
+      "price": "",
+      "quantity": 32,
+      "id": 396
+    },
+    {
+      "name": "بواط 20*15",
+      "cost": 10,
+      "price": 15,
+      "quantity": 43,
+      "id": 401
+    },
+    {
+      "name": "شريط ليد 120 سم ورم 2 لمبة",
+      "cost": 41,
+      "price": 65,
+      "quantity": 10,
+      "id": 402
+    },
+    {
+      "name": "شريط ليد 120 سم ابيض 3 لمبة",
+      "cost": 65,
+      "price": 95,
+      "quantity": 10,
+      "id": 403
+    },
+    {
+      "name": "شريط ليد 60 سم ابيض 2 لمبة",
+      "cost": 35,
+      "price": 50,
+      "quantity": 8,
+      "id": 404
+    },
+    {
+      "name": "دواية قلووظ اليوس  ",
+      "cost": 5.5,
+      "price": 10,
+      "quantity": 142,
+      "id": 405
+    },
+    {
+      "name": "عين بقرة مربع كبير",
+      "cost": 50,
+      "price": 80,
+      "quantity": 5,
+      "id": 406
+    },
+    {
+      "name": "عين بقرة مدور كبير",
+      "cost": 50,
+      "price": 80,
+      "quantity": 6,
+      "id": 407
+    },
+    {
+      "name": " عين بقرة مدور ليد",
+      "cost": 85,
+      "price": 120,
+      "quantity": 2,
+      "id": 408
+    },
+    {
+      "name": "عين بقرة مربع ليد",
+      "cost": 125,
+      "price": 160,
+      "quantity": 2,
+      "id": 409
+    },
+    {
+      "name": "خرطوم ليد ورم بالمتر",
+      "cost": 16,
+      "price": 25,
+      "quantity": 80,
+      "id": 411
+    },
+    {
+      "name": "خرطوم ليد ازرق بالمتر",
+      "cost": 16,
+      "price": 25,
+      "quantity": 70,
+      "id": 412
+    },
+    {
+      "name": "خرطوم ليد اخضر بالمتر",
+      "cost": 16,
+      "price": 25,
+      "quantity": 50,
+      "id": 413
+    },
+    {
+      "name": "خرطوم ليد احمر بالمتر",
+      "cost": 16,
+      "price": 25,
+      "quantity": 90,
+      "id": 414
+    },
+    {
+      "name": "لوحة سيجا ام2 فاز",
+      "cost": 250,
+      "price": 450,
+      "quantity": 1,
+      "id": 415
+    },
+    {
+      "name": "\tمشترك 6 عين 2 متر",
+      "cost": 105,
+      "price": 130,
+      "quantity": 2,
+      "id": 416
+    },
+    {
+      "name": "LJ 2950كشاف شحن موديل ",
+      "cost": 170,
+      "price": 255,
+      "quantity": 1,
+      "id": 417
+    },
+    {
+      "name": "HG 716كشاف شحن موديل",
+      "cost": 120,
+      "price": 195,
+      "quantity": 3,
+      "id": 418
+    },
+    {
+      "name": "mm 1393كشاف شحن موديل",
+      "cost": 90,
+      "price": 175,
+      "quantity": 3,
+      "id": 419
+    },
+    {
+      "name": "FX 1308كشاف شحن موديل",
+      "cost": 90,
+      "price": 165,
+      "quantity": 3,
+      "id": 420
+    },
+    {
+      "name": "HB 9707كشاف شحن موديل",
+      "cost": 130,
+      "price": 195,
+      "quantity": 3,
+      "id": 421
+    },
+    {
+      "name": "كشاف شحن رأس 1898",
+      "cost": 60,
+      "price": 95,
+      "quantity": 2,
+      "id": 422
+    },
+    {
+      "name": "كشاف شحن رأس صغير",
+      "cost": 70,
+      "price": 120,
+      "quantity": 2,
+      "id": 423
+    },
+    {
+      "name": "كشاف مادلية 3157",
+      "cost": 125,
+      "price": 175,
+      "quantity": 2,
+      "id": 424
+    },
+    {
+      "name": "كشاف شحن يد",
+      "cost": 135,
+      "price": 185,
+      "quantity": 2,
+      "id": 425
+    },
+    {
+      "name": "كشاف شحن كاميرا ",
+      "cost": 170,
+      "price": 250,
+      "quantity": 2,
+      "id": 426
+    },
+    {
+      "name": "دائرة ريموت 4 خط",
+      "cost": 125,
+      "price": 190,
+      "quantity": 3,
+      "id": 427
+    },
+    {
+      "name": "دائرة ريموت 6 خط",
+      "cost": 190,
+      "price": 290,
+      "quantity": 1,
+      "id": 428
+    },
+    {
+      "name": " شريط ليد الوان علي كارت",
+      "cost": 90,
+      "price": 135,
+      "quantity": 2,
+      "id": 429
+    },
+    {
+      "name": "لمبة 10 وت بيست",
+      "cost": 6.25,
+      "price": 20,
+      "quantity": 50,
+      "id": 430
+    },
+    {
+      "name": "لمبة 13وت بيست",
+      "cost": 6.75,
+      "price": "",
+      "quantity": 150,
+      "id": 431
+    },
+    {
+      "name": "لمبة بلحة ليد ابيض لوكس",
+      "cost": 12.25,
+      "price": 25,
+      "quantity": 43,
+      "id": 432
+    },
+    {
+      "name": "بواط حراري 20*25",
+      "cost": 40,
+      "price": 55,
+      "quantity": 2,
+      "id": 433
+    },
+    {
+      "name": "ترانس رسيفر12 فولت",
+      "cost": 38,
+      "price": 60,
+      "quantity": 10,
+      "id": 434
+    },
+    {
+      "name": "طقم دواية ليد",
+      "cost": 7,
+      "price": 15,
+      "quantity": 52,
+      "id": 435
+    },
+    {
+      "name": "طقم دواية الكتروني",
+      "cost": 31,
+      "price": 45,
+      "quantity": 54,
+      "id": 436
+    },
+    {
+      "name": "دواية فلام اليوس",
+      "cost": 4.25,
+      "price": 10,
+      "quantity": 50,
+      "id": 437
+    },
+    {
+      "name": "سبراي تنظيف شاشة",
+      "cost": 55,
+      "price": 75,
+      "quantity": 1,
+      "id": 438
+    },
+    {
+      "name": "بلفونيرة ليد 18 وات قديم",
+      "cost": 70,
+      "price": 120,
+      "quantity": 2,
+      "id": 439
+    },
+    {
+      "name": "لمبة شعبي ليد 30 وات",
+      "cost": 18,
+      "price": 40,
+      "quantity": 60,
+      "id": 440
+    },
+    {
+      "name": "لمبة شعبي 40 وات",
+      "cost": 25,
+      "price": 50,
+      "quantity": 40,
+      "id": 441
+    },
+    {
+      "name": "لمبة شعبي ليد 60  وات",
+      "cost": 34.5,
+      "price": 40,
+      "quantity": 20,
+      "id": 442
+    },
+    {
+      "name": "لمبة لوكس ليد 9 وات ورم",
+      "cost": 13.75,
+      "price": 25,
+      "quantity": 47,
+      "id": 443
+    },
+    {
+      "name": "c63حامل كود ",
+      "cost": 325,
+      "price": 410,
+      "quantity": 1,
+      "id": 444
+    },
+    {
+      "name": "لمبة شعبي ليد 13 وات",
+      "cost": 7,
+      "price": 20,
+      "quantity": 150,
+      "id": 445
+    },
+    {
+      "name": "لمبة شعبي ليد 10 وات",
+      "cost": 6.25,
+      "price": 15,
+      "quantity": 100,
+      "id": 446
+    },
+    {
+      "name": "محول دواية",
+      "cost": 9,
+      "price": 15,
+      "quantity": 28,
+      "id": 447
+    },
+    {
+      "name": "لقمة بريزة بيتشينو",
+      "cost": 12,
+      "price": 15,
+      "quantity": 51,
+      "id": 448
+    },
+    {
+      "name": "لقمة مفتاح عريض",
+      "cost": 10,
+      "price": 15,
+      "quantity": 18,
+      "id": 449
+    },
+    {
+      "name": "دواية بروندله بالحلقة",
+      "cost": 7,
+      "price": 15,
+      "quantity": 79,
+      "id": 450
+    },
+    {
+      "name": "دواية بكتوني قلاوظ",
+      "cost": 4,
+      "price": 10,
+      "quantity": 64,
+      "id": 451
+    },
+    {
+      "name": "فلتر مروحة 20*20",
+      "cost": 100,
+      "price": 200,
+      "quantity": 4,
+      "id": 452
+    },
+    {
+      "name": "افيز حديد",
+      "cost": 2.5,
+      "price": 5,
+      "quantity": 23,
+      "id": 453
+    },
+    {
+      "name": "علبة ماجيك مفرد شعبي",
+      "cost": 2,
+      "price": 4,
+      "quantity": 540,
+      "id": 454
+    },
+    {
+      "name": "علبة ماجيك مفرد بتشينو",
+      "cost": 5,
+      "price": 10,
+      "quantity": 225,
+      "id": 455
+    },
+    {
+      "name": "كابل خرطوم ليد متعدد",
+      "cost": 8,
+      "price": 25,
+      "quantity": 22,
+      "id": 456
+    },
+    {
+      "name": "حجر قلم كارت",
+      "cost": 20,
+      "price": 25,
+      "quantity": 6,
+      "id": 457
+    },
+    {
+      "name": "حجر 9 فولت",
+      "cost": 22,
+      "price": 45,
+      "quantity": 8,
+      "id": 458
+    },
+    {
+      "name": "سلك معزول 0.5 م",
+      "cost": 1.75,
+      "price": 3.5,
+      "quantity": 200,
+      "id": 459
+    },
+    {
+      "name": "كشاف 120سم ليد فارغ ",
+      "cost": 15,
+      "price": 45,
+      "quantity": 9,
+      "id": 460
+    },
+    {
+      "name": "صمولة دش",
+      "cost": 3,
+      "price": 1.75,
+      "quantity": 125,
+      "id": 461
+    },
+    {
+      "name": "كيس حزام 10سم",
+      "cost": 4.5,
+      "price": 10,
+      "quantity": 11,
+      "id": 462
+    },
+    {
+      "name": "كيس حزام 20سم",
+      "cost": 11,
+      "price": 15,
+      "quantity": 9,
+      "id": 463
+    },
+    {
+      "name": "كيس حزام 30سم",
+      "cost": 30,
+      "price": 21,
+      "quantity": 5,
+      "id": 464
+    },
+    {
+      "name": "كيس حزام 37سم",
+      "cost": 30,
+      "price": 40,
+      "quantity": 5,
+      "id": 465
+    },
+    {
+      "name": "عدسة ريسيفر",
+      "cost": 35,
+      "price": 65,
+      "quantity": 6,
+      "id": 466
+    },
+    {
+      "name": "اسبلتر نت دي لينك",
+      "cost": 25,
+      "price": 40,
+      "quantity": 5,
+      "id": 467
+    },
+    {
+      "name": "شعبيmk ",
+      "cost": 6.5,
+      "price": 15,
+      "quantity": 56,
+      "id": 468
+    },
+    {
+      "name": "لوكسmk",
+      "cost": 8,
+      "price": 20,
+      "quantity": 23,
+      "id": 469
+    },
+    {
+      "name": "مشترك + mk",
+      "cost": 8,
+      "price": 20,
+      "quantity": 5,
+      "id": 470
+    },
+    {
+      "name": "ترنس سبوت 7 وات",
+      "cost": 15,
+      "price": 35,
+      "quantity": 13,
+      "id": 471
+    },
+    {
+      "name": "ترنس كشاف ليد 24 واط",
+      "cost": 17.5,
+      "price": 35,
+      "quantity": 7,
+      "id": 472
+    },
+    {
+      "name": "ترنس كشاف ليد 30 واط ",
+      "cost": 22,
+      "price": 40,
+      "quantity": 11,
+      "id": 473
+    },
+    {
+      "name": "شباية مربع 50 وات",
+      "cost": 22,
+      "price": 40,
+      "quantity": 9,
+      "id": 474
+    },
+    {
+      "name": "شباية 100 وات علي ترنس",
+      "cost": 80,
+      "price": 120,
+      "quantity": 3,
+      "id": 475
+    },
+    {
+      "name": "شباية 50 وات عالتيار",
+      "cost": 85,
+      "price": 120,
+      "quantity": 3,
+      "id": 476
+    },
+    {
+      "name": "كشاف 1*60 الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 15,
+      "id": 477
+    },
+    {
+      "name": "كشاف 2*60 الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 5,
+      "id": 478
+    },
+    {
+      "name": "ترنس 40 وات نحاس",
+      "cost": 30,
+      "price": 55,
+      "quantity": 64,
+      "id": 479
+    },
+    {
+      "name": "ترنس 1 لمبة الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 7,
+      "id": 480
+    },
+    {
+      "name": "ترنس 2 لمبة الكتروني",
+      "cost": "",
+      "price": "",
+      "quantity": 4,
+      "id": 481
+    },
+    {
+      "name": "جاك اريال بالمقاومة",
+      "cost": 3,
+      "price": "",
+      "quantity": 21,
+      "id": 482
+    },
+    {
+      "name": "سوبر جلو امير",
+      "cost": 5.5,
+      "price": 10,
+      "quantity": 18,
+      "id": 483
+    }
+  ],
+  "pinvoices": [
+    {
+      "total": 7881,
+      "details": [
+        {
+          "name": "لمبة 120 تورنيدو",
+          "price": 37,
+          "id": 2,
+          "quantity": 213,
+          "totalPrice": 7881
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "23/08/2023, 18:01:13",
+      "id": 1
+    },
+    {
+      "total": 370,
+      "details": [
+        {
+          "name": "لمبة 120 تورنيدو",
+          "price": 37,
+          "id": 2,
+          "quantity": 10,
+          "totalPrice": 370
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "23/08/2023, 18:09:35",
+      "id": 2
+    },
+    {
+      "total": 1850,
+      "details": [
+        {
+          "name": "لمبة 120 تورنيدو",
+          "price": 37,
+          "id": 2,
+          "quantity": 50,
+          "totalPrice": 1850
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "23/08/2023, 18:09:45",
+      "id": 3
+    },
+    {
+      "total": 4148,
+      "details": [
+        {
+          "name": "لمبة 60 تورنيدو",
+          "price": 34,
+          "id": 1,
+          "quantity": 122,
+          "totalPrice": 4148
+        }
+      ],
+      "creator": "ehab",
+      "timeCreated": "23/08/2023, 18:14:26",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "name": "ايهاب",
+      "salary": 0,
+      "notes": "تهستيخشست",
+      "id": 1
+    }
+  ]
+}

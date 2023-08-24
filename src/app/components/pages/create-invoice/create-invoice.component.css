@@ -1,0 +1,8 @@
+
+ng-select{
+    width: fit-content;
+}
+::ng-deep.ng-select-container {
+    
+    width: 190px!important;
+ }

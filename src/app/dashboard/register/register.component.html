@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+            <mat-card>
+                <mat-card-header class="d-flex justify-content-center">
+                    <h1>تسجيل مستخدم
+                    </h1>
+                </mat-card-header>
+                <mat-card-content  class="d-flex justify-content-center">
+                    <form class="example-form" [formGroup]="registerForm" (ngSubmit)="proceedregisteration()">
+                    <mat-form-field class="example-full-width">
+                      <mat-label>الاسم</mat-label>
+                      <input matInput formControlName="id">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>كلمة السر</mat-label>
+                      <input type="password" matInput formControlName="password">
+                    </mat-form-field>
+                    <div class="d-flex justify-content-center">
+                        <button mat-raised-button color="primary" class="mx-2">تسجيل</button>
+                        <a routerLink="/login"  mat-raised-button color="accent">العودة لتسجيل الدخول</a>
+                    </div>
+                  </form>
+                </mat-card-content>
+              </mat-card>
+        </div>
+    </div>
+</div>
+  

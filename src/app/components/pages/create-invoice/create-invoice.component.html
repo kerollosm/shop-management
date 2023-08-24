@@ -1,0 +1,94 @@
+<form [formGroup]="invoiceform" (ngSubmit)="saveInvoice()">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <h2 class="text-center">
+                        {{pageTitle}}
+                    </h2>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table class="table table-bardered" formArrayName="details">
+                                    <thead class="bg-primary table-primary text-white">
+                                        <tr>
+                                            <td>تعديل</td>
+                                            <td>اجمالى السعر</td>
+                                            <td>اجمالى التكلفة</td>
+                                            <td>السعر</td>
+                                            <td>الكمية</td>
+                                            <td>اختيارات</td>
+                                            <td>id</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      
+
+                                        <tr *ngFor="let item of invproducts.controls;let i=index" [formGroupName]="i">
+                                            <td>
+                                                <a class="btn btn-danger" (click)="removeItem(i)"> مسح</a>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" formControlName="totalPrice" value="{{calculateTotal(i)}}">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" formControlName="totalCost" value="{{calculateCost(i)}}">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" formControlName="price" value="">
+                                            </td>
+                                            <td>
+                                                <input class="form-control" formControlName="quantity" type="number">
+                                            </td>
+                                            <td>
+                                                <ng-select class="form-control" formControlName="name" bindLabel="name"
+                                                [searchable]="true"
+                                                (change)="updatePrice($event,i)" 
+                                                style="width: 250px;">
+                                                <ng-option *ngFor="let i of items" [value]="i.name">
+                                                {{i.name}}
+                                                </ng-option>
+                                                </ng-select>
+                                               
+                                            </td>
+                                            <td><input class="form-control" formControlName="id" type="number"></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <td colspan="5" >
+                                            <a (click)="addNewProduct()" class="btn btn-success">[+]</a>
+                                        </td>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="">اجمالى سعر الفاتورة</label>
+                                <input class="form-control" formControlName="total" [value]="updateInvoiceTotal()">
+                            </div>
+                            <div class="form-group">
+                                <label for="">اجمالى  تكلفة الفاتورة</label>
+                                <input class="form-control" formControlName="cost" [value]="updateInvoiceCost()">
+                            </div>
+                            <div class="form-group">
+                                <label for="">اجمالى ربح الفاتورة</label>
+                                <input  class="form-control" [value]="profit" disabled>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-lg-4">
+
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <br>
+                            <a routerLink="/invoices" class="btn btn-danger mx-2">الغاء</a>
+                            <button class="btn btn-success" type="submit">تسجيل</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

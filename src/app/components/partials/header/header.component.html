@@ -1,0 +1,25 @@
+<header>
+    <div class="containerr">
+        <a routerLink="/" class="logo">Shop</a>
+        <nav>
+            <ul>
+                <li *ngIf="!show">
+                    <a routerLink="/login">Login</a>
+                </li>
+                
+                
+                <li class="menu-container"  *ngIf="show">
+                    <a routerLink="/dashboard">{{name}}</a>
+                    <div class="menu">
+                        <a routerLink="/all-invoices">فواتير</a>
+                        <a routerLink="/inventory">مخزن</a>
+                        <a routerLink="/employees">الموظفيين</a>
+                        <a (click)="logout()">خروج</a>
+                    </div>
+
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>

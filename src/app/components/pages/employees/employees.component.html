@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="card">
+                <h2 class="text-center">
+                    الموظفين
+                </h2>
+                <div class="card-header">
+                    <button mat-raised-button color="primary" class="float-end" (click)="openAddItem()">اضف موظف جديد</button>
+
+                </div>
+                
+
+                <div class="card-body"> 
+                    <table class="table table-bordered">
+                        <thead class="bg-dark text-white">
+                            <tr>
+                                <td class="text-end">تعديل</td>
+                                <td class="text-end">ملاحظات</td>
+                                <td class="text-end">المرتب</td>
+                                <td class="text-end">اسم الموظف</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of employees">
+                                <td  class="text-end"> <a class="btn btn-danger" (click)="employeeDelete(item.id)">مسح</a> | <a class="btn btn-primary" (click)="openEditForm(item)">تعديل</a></td>
+                                <td  class="text-end">{{item.notes}}</td>
+                                <td  class="text-end">{{item.salary |currency:' EGP'}}</td>
+                                <td  class="text-end">{{item.name}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<ng-confirm></ng-confirm>
